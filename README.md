@@ -7,7 +7,7 @@
 
 # Сайт
 
-<a href='http://vlahouse.ru/projects/social/'>http://vlahouse.ru/projects/social/</a>
+<a href='https://wantfun.ru/projects/social/'>https://wantfun.ru/projects/social/</a>
 
 
 # Установка
@@ -19,7 +19,7 @@ pip install subprocess zipfile requests Threading datetime pathlib cryptography 
 ```
 
 #### Важная информация
-<p>Сайт разработчика: <a href='http://vlahouse.ru'>http://vlahouse.ru</a>
+<p>Сайт разработчика: <a href='https://wantfun.ru'>https://wantfun.ru</a>
 
 # Обратная связь
 

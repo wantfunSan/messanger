@@ -280,7 +280,7 @@ class LoginWindow(QDialog):
 			return
 
 		try:
-			HOST = 'vlahouse.ru'
+			HOST = 'wantfun.ru'
 			PORT = 12345
 			BUFSIZ = 1024
 			ADDR = (HOST, PORT)
@@ -343,7 +343,7 @@ class LoginWindow(QDialog):
 			return
 
 		try:
-			HOST = 'vlahouse.ru'
+			HOST = 'wantfun.ru'
 			PORT = 12345
 			BUFSIZ = 1024
 			ADDR = (HOST, PORT)
@@ -484,7 +484,7 @@ class UpdateThread(QThread):
 
 	def __init__(self, latest):
 		super().__init__()
-		self.url = 'http://vlahouse.ru/assets/apps/Social Network.zip'
+		self.url = 'http://wantfun.ru/assets/apps/Social Network.zip'
 		self.downloads_path = str(Path.home() / "Downloads") + "\\Social Network.zip"
 		self.latest = latest
 
@@ -624,7 +624,7 @@ class ChatApp(QMainWindow):
 
 	def check_update(self):
 		try:
-			HOST = 'vlahouse.ru'
+			HOST = 'wantfun.ru'
 			PORT = 12345
 			BUFSIZ = 1024
 			ADDR = (HOST, PORT)
@@ -654,7 +654,7 @@ class ChatApp(QMainWindow):
 
 	def fetch_chats(self):
 		try:
-			HOST = 'vlahouse.ru'
+			HOST = 'wantfun.ru'
 			PORT = 12345
 			BUFSIZ = 1024
 			ADDR = (HOST, PORT)
@@ -686,7 +686,7 @@ class ChatApp(QMainWindow):
 	def receive2(self):
 		while True:
 			try:
-				HOST = 'vlahouse.ru'
+				HOST = 'wantfun.ru'
 				PORT = 12345
 				BUFSIZ = 1024
 				ADDR = (HOST, PORT)
@@ -713,7 +713,7 @@ class ChatApp(QMainWindow):
 
 	def receive_messages(self, chat_name):
 		try:
-			HOST = 'vlahouse.ru'
+			HOST = 'wantfun.ru'
 			PORT = 12345
 			BUFSIZ = 1024
 			ADDR = (HOST, PORT)
@@ -746,7 +746,7 @@ class ChatApp(QMainWindow):
 
 	def send_message_to_server(self, chat_name, msg):
 		try:
-			HOST = 'vlahouse.ru'
+			HOST = 'wantfun.ru'
 			PORT = 12345
 			BUFSIZ = 1024
 			ADDR = (HOST, PORT)
@@ -1113,7 +1113,7 @@ class ChatApp(QMainWindow):
 			if not phone:
 				return
 			try:
-				HOST = 'vlahouse.ru'
+				HOST = 'wantfun.ru'
 				PORT = 12345
 				BUFSIZ = 1024
 				ADDR = (HOST, PORT)
@@ -1370,7 +1370,7 @@ if __name__ == "__main__":
 		username = splitted_log_data[2][splitted_log_data[2].find('=')+1:]
 
 		try:
-			HOST = 'vlahouse.ru'
+			HOST = 'wantfun.ru'
 			PORT = 12345
 			BUFSIZ = 1024
 			ADDR = (HOST, PORT)
